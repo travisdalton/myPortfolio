@@ -1,27 +1,86 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
-    font-family: adobe-caslon-pro, serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-    zoom: 200%;
+header {
+    width: 100%;
+    background: black;
+    color: white;
+    padding-right: 15px;
+    position: fixed;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+li {
+    font-size: 35px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 62px;
+    letter-spacing: 23px;
+}
+
+.homeIntro p:last-child {
+    margin-bottom: 50px;
+}
+.homeIntro {
+    margin-bottom: 50px;
+    border-bottom: solid black 5px;
+}
+
+.aboutMe p:last-child {
+    margin-bottom: 50px;
+}
+.aboutMe {
+    margin-bottom: 50px;
+    border-bottom: solid black 5px;
+}
+
+.projects p:last-child {
+    margin-bottom: 50px;
+}
+.projects {
+    margin-bottom: 50px;
+    border-bottom: solid black 5px;
 }
 
 .techImages {
-    height: 20px;
-    width: 20px;
+    height: 45px;
+    margin-bottom: 50px;
 }
 
-.contactLogo {
-    height: 20px;
-    width: 20px;
+
+.homeIntro img {
+    height: 750x;
+    width: 750px;
+    border-radius: 50%;
+    margin-top: 350px;
+}
+
+.homeintro {
+    margin: 50px;
 }

@@ -2,99 +2,131 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="e3wd" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travis Dalton's portfolio site."
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Travis Dalton | My Portfolio</title>
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <header class="nav">
-        <div class="nav-wrap">
-            <ul class="nav-list">
-                <li>
-                    <a id="0" class="nav-link nav-link-open">Travis Dalton</a>
-                </li>
-                <li>
-                    <a id="1" class="nav-link">About Me</a>
-                </li>
-                <li>
-                    <a id="2" class="nav-link">Projects</a>
-                </li>
-                <li>
-                    <a id="3" class="nav-link">Work Experience</a>
-                </li>
-            </ul>
+    <main class="mainContent">
+        <div class="container">
+            <header class="wrapper">
+                <h1>Travis Dalton</h1>
+                <nav class="navbar">
+                    <ul class="nav-links"">
+                        <li>
+                            <a class="jumper" href="#home" style="color: white" style="cursor: pointer;">Home</a>
+                        </li>
+                        <li>
+                            <a class="jumper" href="#aboutMe" style="color: white" style="cursor: pointer;">About Me</a>
+                        </li>
+                        <li>
+                            <a class="jumper" href="#projects" style="color: white" style="cursor: pointer;">Projects</a>
+                        </li>
+                        <li>
+                            <a class="jumper" href="#workHistory" style="color: white" style="cursor: pointer;">Work History</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="home" class="home">
+                <section class="homeIntro">
+                    <img src="images/golf.jpeg" alt="Travis Dalton golfing in the Bahamas">
+                    <p>I'm a full-stack developer with a
+                        knack for problem-solving and an obsession with golf.</p>
+                <p>I love coding because I get a charge out of
+                        the problem solving aspect of coding and I am able to put
+                        some creativity into my work when building a page.</p>
+                <p>When I'm not coding, I can be found golfing, cooking a meal for my wife,
+                        preparing my house for my first child, or walking my dog.</p>
+                <p>Please feel free to reach out - I would love to hear from you!
+                </p>
+            </section>
+            <section id="aboutMe" class="aboutMe">
+                    <h2>About Me</h2>
+                    <p>I was born in Pawtucket, RI and grew up moving fairly frequently 
+                        until landing in the Valley Forge/Wayne, Pennsylvania for the latter part of my
+                        youth and most of my young adult life.  I later attended the University of Delaware.
+                        This was followed by an assortment of work experiences and eventually I wound up 
+                        attending Suffolk University Law School in Boston.</p>
+                    <p>In the years following law school, I worked an assortment of jobs before landing in
+                        my current role where I learned I had an interest in technology - specifically development
+                        and coding.</p>
+                    <p>On a personal front, my wife Marissa and I married in September of 2019 and 
+                        we are expecting our first child in April 2020.  Fittingly it's on Masters Sunday - the greatest
+                        Sunday of the year.</p>
+                    <p>I didn’t think the upcoming birth of my first child was going to be enough work, 
+                        so I decided that it was the right time to learn how to code and enrolled in Bloc.
+                        I find coding and development to be 
+                        fascinating and extremely rewarding.  It is essentially solving one 
+                        problem after the next.  Law school helped me develop the ability to break 
+                        big problems down into smaller problems.  Once you’ve solved all of those 
+                        smaller problems, the solution falls into place for the big 
+                        problem.  It’s like putting together a puzzle and I get a real charge out of 
+                        it. I look forward to my next adventure in development.</p>
+                    <p>Thanks for reading a bit about me.  Please feel free to get in touch!</p>
+            </section>
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                    <div class="projectScreenShot">
+                        <img src="images/golfAppScreenshot2.jpg" alt="Screenshot of Travis' golf quiz app">
+                    </div>
+                    <h3>Golf Quiz App</h3>
+                    <p>An 8 question multiple choice quiz that tests one's knowledge of the greatest game
+                            ever created.</p>
+                    <div>
+                        <img class="techImages" src="images/javascriptLogo.png" alt="JavaScript logo"></img>
+                        <img class="techImages" src="images/html5Logo.png" alt="HTML5 logo"></img>
+                        <img class="techImages" src="images/css3Logo.png" alt="CSS3 logo"></img>
+                    </div>
+                </div>
+            </section>
+            <section id="workHistory" class="workHistory">
+                <h2>Work History</h2>
+                <h4>Profile</h4>
+                <p>Dynamic and motivated problem solver with experience in process improvement and data
+                        analytics in a technology-driven financial services compliance consulting firm.
+                        Leader of multiple internal teams with differing initiatives and client relationship
+                            manager with the knowledge and skills required to thrive in a fast-paced deadline-driven
+                            environment.</p>
+                <h4>Experience</h4>
+                <h5>Operations Manager, NQR Inc.; Boston, MA - 2016-Present</h5>
+                <p>Leader of Document Review Team and Data Team which together produce all output for Mutual Fund
+                        Intermediary Oversight product offering.  Client Relationship Manager that facilitates weekly
+                        meetings with clients and responds to client requests.  Designed, tested, and implemented new 
+                        data system that reduced client deliverable turnaround time by 66%.  Review and draft
+                        contracts (MSA, SOW, SaaS, NDA).</p>
+                <h5>Document Review Attorney; Woburn, MA — 2016</h5>
+                <p>Reviewed discovery documents and coded for responsiveness and privilege.  Quickly promoted to 
+                        Quality Control team to review work of other review attorneys and correct coding as necessary.  
+                        Conducted advanced and last pass privilege review.  Utilized CV6 and Relativity programs to 
+                        conduct reviews.</p>
+                <h5>Project Manager, MIR Realty; Boston, MA — 2014-2016</h5>
+                <p>Drove adoption of key tools and technology including company website while establishing
+                        property management business unit.  Ran rehabilitation projects independently within 3 
+                        months with no prior experience.  Established, built, and maintained relationships with 
+                        subcontractors and collaborated to improve performance and finished product.</p>
+                <h4>Education</h4>
+                <p>Bloc.io - Bloc.io – Web Development Track - Expected completion June 2020</p>
+                <p>Suffolk University Law School, Boston, MA - J.D., 2014</p>
+                <p>University of Delaware, Newark, DE - B.A., 2008</p>
+                <h4>Bar Admissions</h4>
+                <p>Massachusetts State Bar - Admitted 2014</p>
+                <h4>Skills</h4>
+                <p>JavaScript, jQuery, HTML5, CSS3 (still to learn: APIs, Node, React, PostgresSQL)</p>
+                <p>MS Office Suite</p>
+            </section>
+            <div id="contactLogos" class="contactLogos">
+                    <p>Built Using:</p>
+                    <img class="contactLogo" src="images/gitHubLogo.png" alt="GitHub logo">
+                    <img class="contactLogo" src="images/linkedinLogo.png" alt="LinkedIn logo">
+                    <img class="contactLogo" src="images/emailLogo.jpg" alt="Email logo">
+            </div>
         </div>
-        <div class="contactLogos">
-            <img class="contactLogo" src="images/gitHubLogo.png" alt="GitHub logo">
-            <img class="contactLogo" src="images/linkedinLogo.png" alt="LinkedIn logo">
-            <img class="contactLogo" src="images/emailLogo.jpg" alt="Email logo">
-        </div>
-
-    </header>
-    <section role="content" class="contentContainer"></section>
-        <section class="aboutMe">
-            <img src="images/golf.JPG" alt="Travis golfing in the Bahamas">
-            <h2>About me...</h2>
-            <p>I'm a full-stack developer with a
-                 knack for problem-solving and an obsession with golf.</p>
-            <p>I love coding because I get a charge out of
-                the problem solving aspect of coding and I am able to put
-                 some creativity into my work when building a page.</p>
-            <p>When I'm not coding, I can be found golfing, cooking a meal,
-                preparing my house for my first child, or walking my dog.</p>
-            <p>Please feel free to reach out - I would love to hear from you!
-            </p>
-        </section>
-        <section class="projects">
-            <h2>Projects</h2>
-            <img src="images/golfAppScreenshot.jpg" alt="Screenshot of Travis' golf quiz app">
-            <h3>Golf Quiz App</h3>
-            <p>An 8 question multiple choice quiz that tests one's knowledge of the greatest game
-                 ever created.</p>
-                <span style="padding-right:3px; padding-top: 3px; display:inline-block;">
-                    <img class="techImages" src="images/javascriptLogo.png" alt="JavaScript logo"></img>
-                    <img class="techImages" src="images/html5Logo.png" alt="HTML5 logo"></img>
-                    <img class="techImages" src="images/css3Logo.png" alt="CSS3 logo"></img>
-                </span>
-        </section>
-        <section class="workHistory">
-            <h2>Work History</h2>
-            <h4>Profile</h4>
-            <p>Dynamic and motivated problem solver with experience in process improvement and data
-                 analytics in a technology-driven financial services compliance consulting firm.
-                   Leader of multiple internal teams with differing initiatives and client relationship
-                    manager with the knowledge and skills required to thrive in a fast-paced deadline-driven
-                     environment.</p>
-            <h4>Experience</h4>
-            <h5>Operations Manager, NQR Inc.; Boston, MA - 2016-Present</h5>
-            <p>Leader of Document Review Team and Data Team which together produce all output for Mutual Fund
-                Intermediary Oversight product offering.  Client Relationship Manager that facilitates weekly
-                 meetings with clients and responds to client requests.  Designed, tested, and implemented new 
-                 data system that reduced client deliverable turnaround time by 66%.  Review and draft
-                  contracts (MSA, SOW, SaaS, NDA).</p>
-            <h5>Document Review Attorney; Woburn, MA — 2016</h5>
-            <p>Reviewed discovery documents and coded for responsiveness and privilege.  Quickly promoted to 
-                Quality Control team to review work of other review attorneys and correct coding as necessary.  
-                Conducted advanced and last pass privilege review.  Utilized CV6 and Relativity programs to 
-                conduct reviews.</p>
-            <h5>Project Manager, MIR Realty; Boston, MA — 2014-2016</h5>
-            <p>Drove adoption of key tools and technology including company website while establishing
-                 property management business unit.  Ran rehabilitation projects independently within 3 
-                 months with no prior experience.  Established, built, and maintained relationships with 
-                 subcontractors and collaborated to improve performance and finished product.</p>
-            <h4>Education</h4>
-            <p>Bloc.io - Bloc.io – Web Development Track - Expected completion June 2020</p>
-            <p>Suffolk University Law School, Boston, MA - J.D., 2014</p>
-            <p>University of Delaware, Newark, DE - B.A., 2008</p>
-            <h4>Bar Admissions</h4>
-            <p>Massachusetts State Bar - Admitted 2014</p>
-            <h4>Skills</h4>
-            <p>JavaScript, jQuery, HTML5, CSS3 (still to learn: APIs, Node, React, PostgresSQL)</p>
-            <p>MS Office Suite</p>
-        </section>
-
-
+    </main>
 
     <script 
     src="https://code.jquery.com/jquery-3.4.1.js" 
