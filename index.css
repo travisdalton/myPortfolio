@@ -58,6 +58,7 @@ h4 {
 .homeIntro {
     margin-bottom: 150px;
     border-bottom: solid black 5px;
+    line-height: 24px;
 }
 
 .aboutMe p:last-child {
@@ -102,6 +103,7 @@ h2 {
 }
 
 .contactLogos {
+    height:50px;
     border-top: solid 5px black;
     display: flex;
     flex-direction: row;
@@ -115,8 +117,8 @@ h2 {
 
 .contactLogo {
     margin-top: 15px;
-    height: 150px;
-    width: 75px;
+    height: 95%;
+    width: 25px;
     border-radius: 25%;
     bottom: -35px;
 }
@@ -142,10 +144,8 @@ h2 {
 
     .contactLogo {
         height: auto;
-    }
-
-    .contactLogos {
-        display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
 
