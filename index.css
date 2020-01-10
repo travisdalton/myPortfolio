@@ -5,8 +5,6 @@
 body {
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    box-sizing: border-box;
-    width: 100%;
     float: left;
 }
 
@@ -16,8 +14,10 @@ header {
     color: white;
     padding-right: 15px;
     position: fixed;
-    margin-top: 0;
-    padding-top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
 }
 
 .nav-links {
@@ -27,55 +27,67 @@ header {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    height: 15px;
+    padding-right: 15px;
 }
 
-ul {
-    margin: 10px;
-    padding: 10px;
-}
 
 li {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 62px;
-    letter-spacing: 23px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 62px;
+    letter-spacing: 5px;
+}
+
+h4 {
+    font-weight: bold; 
 }
 
 .homeIntro p:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 350px;
 }
 .homeIntro {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     border-bottom: solid black 5px;
 }
 
 .aboutMe p:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 .aboutMe {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     border-bottom: solid black 5px;
 }
 
 .projects p:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 .projects {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     border-bottom: solid black 5px;
 }
 
+.workHistory p:last-child {
+    margin-bottom: 350px;
+}
+
 .techImages {
-    height: 45px;
-    margin-bottom: 50px;
+    height:  150px;
+    margin-bottom: 200px;
 }
 
 
 .homeIntro img {
-    height: 750x;
+    height: 750px;
     width: 750px;
     border-radius: 50%;
     margin-top: 350px;
@@ -83,4 +95,72 @@ h1 {
 
 .homeintro {
     margin: 50px;
+}
+
+h2 {
+    padding-top: 350px;
+}
+
+.contactLogos {
+    border-top: solid 5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed
+}
+
+.contactLogo {
+    margin-top: 15px;
+    height: 150px;
+    width: 75px;
+    border-radius: 25%;
+    bottom: -35px;
+}
+
+.techUsed {
+    padding-top: 15px;
+}
+
+.home {
+    bottom: -175px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 150px;
+    }
+
+    h1 {
+        height: 45px;
+        font-size: 45px;
+    }
+
+    .contactLogo {
+        height: auto;
+    }
+
+    .contactLogos {
+        display: inline-block;
+    }
+
+
+    h2 {
+        padding-top: 150px;
+    }
+
+    .homeIntro p:last-child {
+        margin-bottom: 50px;
+    }
+
+    .homeIntro img {
+        display: inline;
+        width: 100%;
+        margin-top: 150px;
+        border-radius: 0;
+    }
 }
