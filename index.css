@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    height: 150px;
     width: 100%;
     background: black;
     color: white;
@@ -46,6 +47,7 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 62px;
     letter-spacing: 5px;
+    padding-top: 150px;
 }
 
 h4 {
@@ -53,7 +55,7 @@ h4 {
 }
 
 .homeIntro p:last-child {
-    margin-bottom: 350px;
+    margin-bottom: 100px;
 }
 .homeIntro {
     margin-bottom: 150px;
@@ -62,7 +64,7 @@ h4 {
 }
 
 .aboutMe p:last-child {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .aboutMe {
     margin-bottom: 150px;
@@ -70,7 +72,7 @@ h4 {
 }
 
 .projects p:last-child {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .projects {
     margin-bottom: 150px;
@@ -78,20 +80,19 @@ h4 {
 }
 
 .workHistory p:last-child {
-    margin-bottom: 350px;
+    margin-bottom: 100px;
 }
 
 .techImages {
-    height:  150px;
+    height:  100px;
     margin-bottom: 200px;
 }
 
 
 .homeIntro img {
     height: 750px;
-    width: 750px;
-    border-radius: 50%;
-    margin-top: 350px;
+    width: 100%;
+    margin-top: 250px;
 }
 
 .homeintro {
@@ -116,11 +117,9 @@ h2 {
 }
 
 .contactLogo {
-    margin-top: 15px;
-    height: 95%;
+    margin-top: 7px;
     width: 25px;
     border-radius: 25%;
-    bottom: -35px;
 }
 
 .techUsed {
@@ -131,36 +130,41 @@ h2 {
     bottom: -175px;
 }
 
-
-@media only screen and (min-width: 768px) {
-    header {
-        height: 150px;
-    }
-
-    h1 {
-        height: 45px;
-        font-size: 45px;
-    }
-
-    .contactLogo {
-        height: auto;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-
-    h2 {
-        padding-top: 150px;
-    }
-
-    .homeIntro p:last-child {
-        margin-bottom: 50px;
+@media only screen and (max-width: 480px) {
+    body {
+        width: 100%;
     }
 
     .homeIntro img {
-        display: inline;
-        width: 100%;
-        margin-top: 150px;
-        border-radius: 0;
+        height: 250px;
+        margin-top: 175px;
+    }
+
+    h2 {
+        padding-top: 300px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    .nav-links {
+        list-style-type: none;
+        color: white;
+        display: inline-block;
+        flex-direction: none;
+        width: auto;
+        justify-content: none;
+        height: 15px;
+        padding-right: none;
+        font-size: 10px;
+    }
+
+    p {
+        text-align: left;
     }
 }
